@@ -62,5 +62,6 @@ async def init():
     LOGGER("BrandrdXMusic").info("Stopping Brandrd Music Bot...")
 
 
-if __name__ == "__main__":
-    asyncio.get_event_loop().run_until_complete(init())
+if __name__=="__main__":
+    print("[BOT STARTED||💲💲💲]") 
+    bot.run()
